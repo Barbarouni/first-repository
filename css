@@ -1,0 +1,392 @@
+header{
+  background-color:#BB3E3E;
+  font-family:sans-serif, Tahoma,verdana;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+}
+ 
+nav li{
+  display: inline-block;
+  margin-top:40px;
+  margin-left: 50px;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.logo{
+  float: left;
+  max-width: 200px;
+  margin: 40px;
+}
+
+body{
+  background-color:#CCCCCC;
+  font-weight: bold;
+}
+
+.batman{
+  max-width: 250px;
+  padding: 30px;
+}
+
+.first{
+  display: flex;
+}
+
+.posia{
+  margin-left: 250px;
+  margin-top: 150px;
+  flex-direction: column;
+}
+
+.all{
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+  background-color:white;
+  padding: 3px 35px;
+  border-radius: 40px;
+  border-color: black;
+  margin-left: 80px;
+  border-style: solid;
+}
+main a{
+  color: black;
+  text-decoration: none;
+}
+
+h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.now{
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  background-color:white;
+  padding: 5px 35px;
+  border-radius: 40px;
+  border-color: black;
+  margin-left: 80px;
+  border-style: solid;
+  max-width: 100px;
+  display: inline-block
+}
+
+.line{
+  text-decoration: line-through;
+}
+
+
+
+footer a{
+  color: white;
+}
+
+footer{
+  background-color:#BB3E3E;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+}
+
+footer img{
+  color: white;
+}
+
+footer p,ul{
+  font-weight: normal;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+.bout{
+  text-decoration: underline;
+}
+
+.email{
+  background-color: white;
+  color: black;
+  padding: 4px 20px;
+  border-radius: 40px; 
+  max-width: 80px;
+}
+
+.Pay_Now{
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 35px;
+  border-radius: 40px;
+  border-color: black;
+  margin-left: 40px;
+  border-style: solid;
+  max-width: 100px;
+  margin: 10px;
+}
+
+.foote{
+  display: grid;
+  grid-template-columns: repeat( 4,0.5fr );
+  width: 100%;
+}
+
+.sociala{
+  max-height: 10px;
+}
+
+.copyright{
+ text-align: center;
+}
+
+@media (max-width:600px){
+  .first{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/* About Us */
+
+h1{
+  text-decoration: underline;
+}
+
+.logo_about{
+  max-width: 350px;
+  margin: 50px;
+}
+
+footer{  
+  background-color:#BB3E3E;
+  font-family:sans-serif, Tahoma,verdana;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+}
+
+.copyright{
+  text-align: center;
+ }
+
+/* All movies */
+
+.watch_now{
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 35px;
+  border-radius: 40px;
+  border-color: black;
+  margin-left: 40px;
+  border-style: solid;
+  max-width: 100px;
+  margin: 10px;
+}
+
+img{
+  max-width: 300px;
+  margin: 40px;
+}
+
+.movii{
+ margin-left: 70px;
+ margin-top: 265px;
+}
+
+.moviii{
+  display: flex
+
+}
+
+.fff{
+  display: flex;
+  
+}
+
+.fff > *{
+  flex: 1;
+}
+
+.aaa{
+  display: flex;
+}
+
+.foote{
+  display: grid;
+  grid-template-columns: repeat( 4,0.5fr );
+  width: 100%;
+}
+
+.copyright{
+  text-align: center;
+ }
+
+/* Buy Now */
+
+.Pay_Now{
+  background-color: white;  
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 35px;
+  border-radius: 40px;
+  border-color: black;
+  margin-left: 40px;
+  border-style: solid;
+  max-width: 100px;
+  margin: 10px;
+}
+
+.foote{
+  display: grid;
+  grid-template-columns: repeat( 4,0.5fr );
+  width: 100%;
+}
+
+.copyright{
+  text-align: center;
+ }
+
+/* Pay Now */
+
+.Successful{
+  color: rgb(15, 175, 15);
+  text-decoration: none;
+  margin-right: 100px;
+}
+
+.sss{
+  padding: 50px;
+  margin-left: 150px;
+  display: table;
+}
+
+.watch_now{ 
+  background-color: white;  
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 35px;
+  border-radius: 40px;
+  border-color: black;
+  border-style: solid;
+  max-width: 100px;
+  margin: 10px;
+}
+
+.foote{
+  display: grid;
+  grid-template-columns: repeat( 4,0.5fr );
+  width: 100%;
+}
+
+.copyright{
+  text-align: center;
+ }
+  
+  
+
+/* Cart */
+
+.Pay_Now{
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 35px;
+  border-radius: 40px;
+  border-color: black;
+  border-style: solid;
+  max-width: 100px;
+  margin: 10px;
+}
+
+main{
+  max-width: 100%;
+}
+
+.form__input{
+  display: block;
+  border-radius: 30px;
+  padding: 10px 50px;
+  border-color: #B9B7B7;
+  margin: 10px;
+}
+
+.check{
+ float: left;
+}
+
+.check2{
+  float: right;
+}
+ 
+.foote{
+  display: grid;
+  grid-template-columns: repeat( 4,0.5fr );
+  width: 100%;
+}
+
+.copyright{
+  text-align: center;
+ }
+
+/* Contact Us */
+
+.lloo{
+  float: right;
+}
+
+.ccoo{
+  display:inline-block;
+  margin-left: 50px;
+  padding: 80px;
+}
+
+.ccoo::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+h1{
+ margin-left: 80px;
+}
+
+.foote{
+  display: grid;
+  grid-template-columns: repeat( 4,0.5fr );
+  width: 100%;
+}
+
+.copyright{
+  text-align: center;
+  display: inline-table;
+ }
+
+@media (min-width:600px){
+  .first{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
